@@ -18,16 +18,16 @@
 [x] npx gitignore node (to create a gitignore file)
 
 ## ORGANIZATION
-[] server file 
-[] index file 
-[] routes folder
+[x] server file 
+[x] index file 
+[x] routes folder
     [] routes files
     [] models
-[] migrations
-[] knex file
-[] seeds files 
-[] data folder
-[] dbConfig file 
+[x] migrations
+[x] knex file
+[x] seeds files 
+[x] data folder
+[x] dbConfig file 
 
 ## CREATING REACT APP IS SAME FOLDER
 [] yarn install (outside of app for node modules, optional)
@@ -40,27 +40,27 @@
 [] yarn add axios 
 [] Write Login component
 [] Add NavLink and Route for Login in App.js
-[]MAKE SURE YOU ARR USING A REGISTERED USER & THAT YOU LOGGED IN WITH REGISTERED USER ON POSTMAN
+[] MAKE SURE YOU ARR USING A REGISTERED USER & THAT YOU LOGGED IN WITH REGISTERED USER ON POSTMAN
 [] to check for token...click application and when you click login you should see a token on your localStorage 
 [] create HOC so client can make requests to backend 
 
 ##MIGRATIONS (way to recreate your database to particular point in time)
 
 - `npx knex` or  shows command list 
-[] run `npx  knex init` or ``yarn knex init ` to generate `knexfile.js`
-[] modify `knexfile.js` to config our db connections
-[] remove staging and production configs from `knexfile.js`
-[] run `npx knex migrate:make create_name_of_table` 
-[] make a migration for each db schema change 
-[] run `npx knex migrate:latest` to update changes made to table 
+[x] run `npx knex init` or `yarn knex init` to generate `knexfile.js`
+[x] modify `knexfile.js` to config our db connections
+[x] remove staging and production configs from `knexfile.js`
+[x] run `npx knex migrate:make create_name_of_table` 
+[x] make a migration for each db schema change 
+[x] run `npx knex migrate:latest` to update changes made to table 
 [] SAVE FILES AND CHECK YOUR SERVER
 [] need to create a migration for every changes made, i.e. adding email or creating another table, etc
 []`npx knex migrate:rollback` deletes last migration added 
 
 ## TO SEED
-[] `npx knex seed:make name of table 
-[] can add numbers to order seeds
-[] `npx knex seed: run`
+[x] `npx knex seed:make name of table` 
+[x] can add numbers to order seeds
+[x] `npx knex seed: run`
 
 ## TO TEST
 [] add to package.json: (for the env file)
