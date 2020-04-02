@@ -1,21 +1,21 @@
 ## SET UP ENVIRONMENT
-[] yarn init (set up files)
-[] yarn install (node modules)
-[] yarn add express, helmet, morgan 
-[] yarn add nodemon --dev (for deployment)
-[] yarn add dotenv
-[] yarn add knex sqlite3
-[] yarn add bcryptjs
-[] add script: 
+[x] yarn init (set up files)
+[x] yarn install (node modules)
+[x] yarn add express, helmet, morgan 
+[x] yarn add nodemon --dev (for deployment)
+[x] yarn add dotenv
+[x] yarn add knex sqlite3
+[x] yarn add bcryptjs
+[x] add script: 
  "scripts": {
     "server": "nodemon index.js", (auto updates server)
     "start": "node index.js"
   },
-[] install yarn add express-session
-[] yarn add connect-session-knex
-[] yarn add cors (to connect to react app)
-[] yarn add jsonwebtoken
-[] npx gitignore node (to create a gitignore file)
+[x] install yarn add express-session
+[x] yarn add connect-session-knex
+[x] yarn add cors (to connect to react app)
+[x] yarn add jsonwebtoken
+[x] npx gitignore node (to create a gitignore file)
 
 ## ORGANIZATION
 [] server file 
