@@ -3,7 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 
 // import routers 
-
+const authRouter = require('../auth/auth-router.js'); 
 
 const server = express();
 
@@ -16,6 +16,7 @@ server.use(logger)
 
 
 // use routers 
+server.use('/auth', authRouter);
 
 
 server.get('/', (req, res) => {

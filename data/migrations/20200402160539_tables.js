@@ -3,7 +3,7 @@ exports.up = function(knex) {
     return knex.schema
 
         // admin 
-        .createTable('admin', tbl => {
+        .createTable('admin', function(tbl) {
             tbl.increments(); 
             tbl
                 .text('username')
