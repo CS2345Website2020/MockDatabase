@@ -21,30 +21,16 @@
 [x] server file 
 [x] index file 
 [x] routes folder
-    [] routes files
-    [] models
+    [x] routes files
+    [x] models
 [x] migrations
 [x] knex file
 [x] seeds files 
 [x] data folder
 [x] dbConfig file 
 
-## CREATING REACT APP IS SAME FOLDER
-[] yarn install (outside of app for node modules, optional)
-[] yarn create react-app name
-    [] cd into react folder
-    [] yarn start 
-[] cd into folder 
-[] yarn add react-router-dom
-[] update index.js by importing router and wrapping app in router 
-[] yarn add axios 
-[] Write Login component
-[] Add NavLink and Route for Login in App.js
-[] MAKE SURE YOU ARR USING A REGISTERED USER & THAT YOU LOGGED IN WITH REGISTERED USER ON POSTMAN
-[] to check for token...click application and when you click login you should see a token on your localStorage 
-[] create HOC so client can make requests to backend 
 
-##MIGRATIONS (way to recreate your database to particular point in time)
+## MIGRATIONS (way to recreate your database to particular point in time)
 
 - `npx knex` or  shows command list 
 [x] run `npx knex init` or `yarn knex init` to generate `knexfile.js`
@@ -53,9 +39,9 @@
 [x] run `npx knex migrate:make create_name_of_table` 
 [x] make a migration for each db schema change 
 [x] run `npx knex migrate:latest` to update changes made to table 
-[] SAVE FILES AND CHECK YOUR SERVER
-[] need to create a migration for every changes made, i.e. adding email or creating another table, etc
-[]`npx knex migrate:rollback` deletes last migration added 
+[x] SAVE FILES AND CHECK YOUR SERVER
+[x] need to create a migration for every changes made, i.e. adding email or creating another table, etc
+[x]`npx knex migrate:rollback` deletes last migration added 
 
 ## TO SEED
 [x] `npx knex seed:make name of table` 
