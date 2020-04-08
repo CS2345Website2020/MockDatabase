@@ -13,11 +13,11 @@ router.post('/register', (req, res) => {
     const hash = bcrypt.hashSync(administrator.password, 10); 
 
     // assign hash to administrator  
-    administrator.password = hash 
+    administrator.password = hash; 
 
     db.addAdmin(administrator)
         .then(saved => {
-            res.status(201).json(saved);
+            res.status(201).json(saved.id);
         })
         .catch(error => {
             res.status(500).json({

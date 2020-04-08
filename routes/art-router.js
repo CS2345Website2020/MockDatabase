@@ -3,7 +3,7 @@ const router = require('express').Router();
 const db = require('./art-model.js');
 
 // GET all art 
-router.get('/all', (req, res) => {
+router.get('/', (req, res) => {
 
     db.getArt()
         .then(art => {
