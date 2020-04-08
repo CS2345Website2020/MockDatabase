@@ -23,8 +23,8 @@ https://artmuseumdraft.herokuapp.com
 
 ##### Documentation 
 
-To read about how our API works, please refer to the link below. 
+To read about how the API works, please refer to the link below. 
 
-https://documenter.getpostman.com/view/7274937/SVmzuGiZ?version=latest 
 
-© 2019
+
+© 2020
