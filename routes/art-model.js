@@ -31,7 +31,7 @@ function removeArt(id) {
 }
 
 function editArt(id, changes) {
-    return db('admin')
+    return db('art')
         .where({ id })
         .update(changes)
 }
