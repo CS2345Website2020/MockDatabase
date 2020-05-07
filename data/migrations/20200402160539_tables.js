@@ -26,17 +26,17 @@ exports.up = function(knex) {
             tbl
                 .text('type')
                 .notNullable();
-            tbl
+            tbl 
                 .text('medium_support')
                 .notNullable();
             tbl
-                .string('description')
-                .notNullable();
-            tbl 
-                .text('creation_date')
+                .string('description_basic')
                 .notNullable();
             tbl
-                .string('credit_line')
+                .string('description_spatial')
+                .notNullable();
+            tbl
+                .string('description_thematic')
                 .notNullable();
             tbl
                 .text('accession_number')
